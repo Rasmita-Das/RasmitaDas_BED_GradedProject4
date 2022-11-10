@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.gl.customexceptionjson.CustomJson;
+import com.gl.employee.employeemanagementga4.service.CustomJson;
 
 public class ExceptionHandler {
 	@ResponseStatus(value=HttpStatus.NOT_FOUND)
